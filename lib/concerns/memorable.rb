@@ -15,7 +15,6 @@ module Memorable
   def InstanceMethods
 
     def initilize
-      super 
       self.class.all << self
     end
 
