@@ -1,3 +1,7 @@
 module Paramable
 
-end 
+  def to_param
+    self.name.gsub(" ")("_")
+  end
+
+end
